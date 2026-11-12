@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Marquez Eatery with your questions and suggestions.">
+    <title>Contact | Marquez Eatery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body class="contact-page">
+    
+    
+    <header class="header">
+        <a href="#home" class="logo" aria-label="Marquez Eatery home">
+            <img src="cf549460-9e43-4b8b-85ea-778e38f6f900.jpg" alt="Marquez logo" class="logo-icon">
+            <span class="logo-name">Marquez<small>Eatery</small></span>
+        </a>
+
+
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section section" id="contact">
+            <div class="section-heading">
+                <p class="tagline">WE’RE HERE FOR YOU</p>
+                <h1>Let’s talk <span>Marquez!</span></h1>
+                <p>Questions about the menu or your order? Send us a message.</p>
+            </div>
+
+            <div class="contact-box">
+                <div class="contact-info" aria-labelledby="contact-info-title">
+                    <p class="contact-eyebrow">MARQUEZ EATERY</p>
+                    <h2 id="contact-info-title">Home-style goodness is just one message away.</h2>
+                    <p class="contact-intro">Call or visit us. We’re happy to help with your questions and suggestions.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <span class="contact-icon" aria-hidden="true">⌖</span>
+                            <div>
+                                <h3>Find us</h3>
+                                <a href="https://maps.google.com/?q=Barangay+Bagongbayan,+Mauban,+Quezon" target="_blank" rel="noopener noreferrer">Barangay Bagongbayan, Mauban, Quezon</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="contact-icon" aria-hidden="true">☎</span>
+                            <div>
+                                <h3>Call us</h3>
+                                <a href="tel:+63937802520">0938 780 2520</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="contact-icon" aria-hidden="true">f</span>
+                            <div>
+                                <h3>Facebook</h3>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Visit our Facebook page</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-hours">
+                        <span aria-hidden="true">◷</span>
+                        <p><strong>Open daily</strong><br>8:00 AM – 8:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <div class="contact-form-heading">
+                        <p class="tagline">LEAVE US A MESSAGE</p>
+                        <h2>How can we help?</h2>
+                        <p>Fill out the form and we’ll get back to you as soon as possible.</p>
+                    </div>
+                    <form id="contact-form">
+                        <label for="contact-name">name</label>
+                        <input type="text" id="contact-name" name="name"
+                               placeholder="e.g. gerald villa" autocomplete="name" required>
+
+                        <label for="contact-email">email</label>
+                        <input type="email" id="contact-email" name="email"
+                               placeholder="gerald@pogilang.not easy to get" autocomplete="email" required>
+
+                        <label for="contact-text">message</label>
+                        <textarea id="contact-text" name="message"
+                                  placeholder="cute naman yung gumawa ipasa mona" rows="4"
+                                  required></textarea>
+
+                        <button type="submit" class="btn">Send message <span aria-hidden="true">→</span></button>
+                        <p id="contact-message" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Marquez Eatery</h3>
+        <p>Delicious Filipino food, made for everyone!</p>
+        <p>© 2026 Marquez Eatery | School Project</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enjoy delicious, fresh, and affordable Filipino home-style meals at Marquez Eatery.">
+    <title>Marquez Eatery | Home-Style Filipino Food</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+   <script src="javascript.js" defer></script>
+</head>
+<body>
+
+    
+    <header class="header">
+        <a href="#home" class="logo" aria-label="Marquez Eatery home">
+            <img src="cf549460-9e43-4b8b-85ea-778e38f6f900.jpg" alt="Marquez logo" class="logo-icon">
+            <span class="logo-name">Marquez<small>Eatery</small></span>
+        </a>
+
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" aria-current="page">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="#cart" class="cart-link">
+            🛒 Cart <span id="cart-count">0</span>
+        </a>
+    </header>
+
+    <main>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO MARQUEZ EATERY</p>
+            <h1>Fresh Filipino Favorites, <span>Made with Care.</span></h1>
+            <p class="hero-description">
+                Enjoy delicious, freshly prepared meals at prices that fit your budget.
+                Every dish brings the comfort of home to your table.
+            </p>
+            <a href="menu.html#menu" class="btn">Explore Our Menu <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-visual">
+            <img src="adobo.jpg" alt="A freshly prepared Filipino adobo meal">
+            <p class="hero-badge"><span aria-hidden="true">✦</span> Home-cooked favorites</p>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="about-image">
+        <img
+                src="adobo.jpg"
+                alt="Delicious home-style Filipino food">
+        </div>
+
+        <div class="about-content">
+        <p class="tagline">ABOUT US</p>
+        <h2>Filipino Food That <span>Feels Like Home!</span></h2>
+
+        <p>
+            Marquez Eatery is dedicated to serving delicious,
+            clean, and affordable meals to every customer.
+        </p>
+
+        <p>
+            Every dish is prepared with Filipino flavor and
+            the warmth of a home-cooked meal.
+        </p>
+
+        <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    
+    <section class="menu-section section" id="menu">
+        
+        <div class="section-heading">
+        <p class="tagline">A TASTE OF THE PHILIPPINES</p>
+        <h2>Our <span>Menu</span></h2>
+        <p>Choose your favorite dish and add it to your cart!</p>
+        </div>
+
+        <div class="menu-container">
+
+        <div class="food-card">
+            <img src="dinuguan.jpg"
+                alt="Dinuguan">
+            <div class="food-info">
+            <h3>Dinuguan</h3>
+            <p>A classic Filipino pork stew served with rice.</p>
+            <div class="food-bottom">
+            <strong>₱60.00</strong>
+            <button type="button" class="add-btn" data-id="1">+ Add to Cart</button>
+            </div>
+            </div>
+            </div>
+
+        <div class="food-card">
+            <img src="igado.jpg"
+            alt="Igado">
+            <div class="food-info">
+            <h3>Igado</h3>
+            <p>A flavorful and budget-friendly Ilocano pork dish.</p>
+            <div class="food-bottom">
+            <strong>₱50.00</strong>
+            <button type="button" class="add-btn" data-id="2">+ Add to Cart</button>
+            </div>
+            </div>
+            </div>
+
+            <div class="food-card">
+                <img src="lechon paksiw.jpg"
+                     alt="Lechon Paksiw">
+                <div class="food-info">
+                <h3>Lechon Paksiw</h3>
+                <p>Tender roasted pork simmered in a rich, tangy sauce.</p>
+                <div class="food-bottom">
+                <strong>₱60.00</strong>
+                        <button type="button" class="add-btn" data-id="3">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="binagoongan.jpg"
+                     alt="Binagoongan">
+                <div class="food-info">
+                    <h3>Binagoongan Meal</h3>
+                    <p>Savory pork in shrimp paste, served with steamed rice.</p>
+                    <div class="food-bottom">
+                        <strong>₱50.00</strong>
+                        <button type="button" class="add-btn" data-id="4">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="chopsuey.jpg"
+                     alt="Fresh Vegetable Dish">
+                <div class="food-info">
+                    <h3>Chopsuey</h3>
+                    <p>A colorful mix of vegetables in a savory sauce.</p>
+                    <div class="food-bottom">
+                        <strong>₱50.00</strong>
+                        <button type="button" class="add-btn" data-id="5">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="giniling.jpg"
+                     alt="Ground pork stew">
+                <div class="food-info">
+                    <h3>Giniling</h3>
+                    <p>A hearty, home-style ground pork meal at a great price.</p>
+                    <div class="food-bottom">
+                        <strong>₱50.00</strong>
+                        <button type="button" class="add-btn" data-id="6">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="goto mami.jpg" alt="Goto Mami">
+                <div class="food-info">
+                    <h3>Goto Mami</h3>
+                    <p>A warm, hearty noodle soup to satisfy and comfort you.</p>
+                    <div class="food-bottom">
+                        <strong>₱70.00</strong>
+                        <button type="button" class="add-btn" data-id="7">+ Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cart-section section" id="cart">
+        <div class="section-heading">
+            <p class="tagline">YOUR ORDER</p>
+            <h2>Shopping <span>Cart</span></h2>
+            <p>Review your selected dishes before placing your order.</p>
+        </div>
+
+        <div class="cart-box">
+            <div id="cart-items">
+                <p class="empty-cart">Your cart is empty.</p>
+            </div>
+
+            <div class="cart-summary">
+                <h3>Total: <span id="cart-total">₱0.00</span></h3>
+                <button type="button" id="clear-cart" class="clear-btn">Clear Cart</button>
+                <button type="button" id="checkout-btn" class="btn checkout-btn">
+                    Place Order
+                </button>
+            </div>
+
+            <p id="cart-message" class="message" aria-live="polite"></p>
+        </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+        <div class="section-heading">
+            <p class="tagline">WE’RE HERE FOR YOU</p>
+            <h2>Let’s talk <span>Marquez!</span></h2>
+            <p>Questions about the menu or your order? Send us a message.</p>
+        </div>
+
+        <div class="contact-box">
+            <div class="contact-info" aria-labelledby="contact-info-title">
+                <p class="contact-eyebrow">MARQUEZ EATERY</p>
+                <h3 id="contact-info-title">Home-style goodness is just one message away.</h3>
+                <p class="contact-intro">Call or visit us. We’re happy to help with your questions and suggestions.</p>
+
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <span class="contact-icon" aria-hidden="true">⌖</span>
+                        <div>
+                            <h4>Find us</h4>
+                            <a href="https://maps.google.com/?q=Barangay+Bagongbayan,+Mauban,+Quezon" target="_blank" rel="noopener noreferrer">Barangay Bagongbayan, Mauban, Quezon</a>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-icon" aria-hidden="true">☎</span>
+                        <div>
+                            <h4>Call us</h4>
+                            <a href="tel:+63937802520">0938 780 2520</a>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-icon" aria-hidden="true">f</span>
+                        <div>
+                            <h4>Facebook</h4>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Visit our Facebook page</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-hours">
+                    <span aria-hidden="true">◷</span>
+                    <p><strong>Open daily</strong><br>8:00 AM – 8:00 PM</p>
+                </div>
+            </div>
+
+            <div class="contact-form-panel">
+                <div class="contact-form-heading">
+                    <p class="tagline">LEAVE US A MESSAGE</p>
+                    <h3>How can we help?</h3>
+                    <p>Fill out the form and we’ll get back to you as soon as possible.</p>
+                </div>
+                <form id="contact-form">
+                    <label for="contact-name">name</label>
+                    <input type="text" id="contact-name"
+                           name="name" autocomplete="name" placeholder="e.g. gerald villa" required>
+
+                    <label for="contact-email">email</label>
+                    <input type="email" id="contact-email"
+                           name="email" autocomplete="email" placeholder="gerald@pogilang.not easy to get" required>
+
+                    <label for="contact-text">message</label>
+                    <textarea id="contact-text"
+                              name="message" placeholder="cute naman yuyng gumawa ipasa mona " rows="4"
+                              required></textarea>
+
+                    <button type="submit" class="btn">Send message <span aria-hidden="true">→</span></button>
+                    <p id="contact-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <h3 class="footer-brand">
+            <img src="cf549460-9e43-4b8b-85ea-778e38f6f900.jpg" alt="Marquez Eatery logo" class="footer-logo">
+            <span>Marquez Eatery</span>
+        </h3>
+        <p>Delicious Filipino food, made for everyone!</p>
+        <p>Thank you for visiting!</p>
+        <p>© 2026 Marquez Eatery</p>
+    </footer>
+
+</body>
+</html>
